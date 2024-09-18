@@ -1,5 +1,5 @@
 {% set name = "bibmon" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bibmon-{{ version }}.tar.gz
-  sha256: 2d4768cb935e8bb65bfe616969470b32d0aecfaf6e89d9bd59138578eb8f2279
+  sha256: 97e70bd3f796945a17d7e404b3b91070b9aaa51ccdd5004b10507a7a156bf41c
 
 build:
   noarch: python
